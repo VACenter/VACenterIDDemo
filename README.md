@@ -1,4 +1,5 @@
 <div align=center>
+<img src="https://va-center.com/public/images/branding/dev/iconLogo.png" height=100>
 
 # VACenterID Demo
 ## Learn how to use the VACenterID OAuth2 API
