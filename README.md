@@ -1,2 +1,6 @@
-# VACenterIDDemo
-A demo application for how to use the VACenterID API.
+<div align=center>
+
+# VACenterID Demo
+## Learn how to use the VACenterID OAuth2 API
+
+</div>
