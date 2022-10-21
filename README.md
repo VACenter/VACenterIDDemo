@@ -7,7 +7,6 @@
 </div>
 
 ### What is this?
-tokenData
 This is a small web application written in NodeJS & Express, it will ask users to login, which will then take you to a VACenterID Authentication Page, following which it will display some information about you.
 
 
