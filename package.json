@@ -1,0 +1,30 @@
+{
+  "name": "vacenteriddemo",
+  "version": "1.0.0",
+  "description": "A demo application to demonstrate how to use the VACenterID API",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VACenter/VACenterIDDemo.git"
+  },
+  "keywords": [
+    "VACenterID",
+    "VACenter"
+  ],
+  "author": "VACenter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VACenter/VACenterIDDemo/issues"
+  },
+  "homepage": "https://github.com/VACenter/VACenterIDDemo#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}

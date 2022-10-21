@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VACenterID Demo Application</title>
+    <%- include('components/head')%>
+    <link rel="stylesheet" href="/public/css/login.css">
+</head>
+<body class="text-center bg-dark text-white">
+    <main class="form-signin w-100 m-auto text-white">
+        <form>
+            <img class="mb-4" src="https://va-center.com/public/images/branding/core/iconLogo.png" alt="" width="100"
+                height="100">
+            <h1 class="h3 mb-3 fw-bold">Please sign in</h1>
+
+            <a class="w-100 btn btn-lg btn-light" type="button"
+                href="https://api.id.va-center.com/oAuth2/authGrant?client_id=<%=clientID%>&redirect_uri=<%= hostIP %>/api/returnLogin&scope=<%= encodeURI(scopes)%>"><img
+                    src="https://va-center.com/public/images/branding/vacenterid/iconLogo.png" height="22px"
+                    style="margin-bottom: 2px;"> <span class="pt-5">Sign in with VACenterID</span></a>
+            <p class="mt-5 mb-3 text-white">&copy; 2022</p>
+        </form>
+    </main>
+</body>
+</html>
